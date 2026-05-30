@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Calculator</title>
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
+
+</head>
+<body style="background:linear-gradient(45deg,#8b0000,#d4af37); justify-content: center; align-items: center; height: 100vh; display: flex;"> 
+    <div style="margin-top: 50px; border: #0441de 5px solid; border-radius: 20px; width: 50%; margin-left: auto; margin-right: auto; background-color: aliceblue; height: auto; ">
+     <h1 style="text-align: center; color: rgb(241, 37, 19); font-family: 'Courier New', Courier, monospace;">Student Result Calculator</h1>
+ <hr style="border: 1px solid #0441de; margin-top: 0; margin-bottom: 20px;">
+
+     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+
+            <label style="color: rgb(50, 153, 226); font-family: 'Courier New', Courier, monospace; font-size: 28px; "><b>Enter the Number of subjects</b></label>
+
+
+            <input type="number" min="0" id="subjectcount" placeholder="Enter no. of subjects"  style="margin-left: 20px; padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #7ec0f0;  margin: 1.5em;">
+
+            <button onclick="calculateresult()" style="margin-left: 20px; padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #7ec0f0; background-color: #0441de; color: white;">Calculate Result</button>
+
+        <div class="result" id="result" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: large; color:#39a2ed; margin: 0.5em; "></div>
+         </div>
+     </div>
+     
+     <script src="script.js"></script>
+     
+</body>
+</html>

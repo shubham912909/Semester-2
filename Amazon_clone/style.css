@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: rgb(19,25,33);
+    color: white;
+    align-items: center;
+    height:60px;
+    display: flex;
+    /* flex-direction: column; */
+    position:static;
+    text-size-adjust: 100%;
+    z-index: 5px;
+}
+
+   
+.nav-logo img{
+    box-sizing: border-box ;
+    width: 130px;
+    height: 50px;
+    padding: 1px 8px 0px 6px;
+    margin: 1px;
+    cursor: pointer;
+}
+.nav-logo img:hover {
+    border: 1.5px solid white;
+    border-radius: 0.5px;
+}
+
+   
+
